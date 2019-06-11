@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test HTML</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="csstest.css">
+    <!-- Latest compiled and minified CSS -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="column-lg-2"></div>
+                <div class="column-lg-8">
+                    <div class="container" id="mainCalc">
+                        <div class="flex-container">
+                            <h1>Calculator</h1>
+                        </div>
+                        <div class="flex-container">
+                            <div class="column-lg">
+                                <h4>Num 1</h4>
+                            </div>
+                            <div class="column-lg">
+                                <h4>Num 2</h4>
+                            </div>
+
+
+                        </div>
+                        <div class="flex-container">
+                            <input type="text" id="num1">
+                            <input type="text" id="num2">
+                        </div>
+                        <div class="flex-container" style="padding-top: 1vh;">
+                            <button class="btn btn-primary active"><i class="glyphicon glyphicon-plus" type="button" onclick="addNumbers()"></i> Add</button>
+                            <button class="btn btn-success biggerBtn" id="subtractnum" type="button" onclick="subtract()">-</button>
+                            <button class="btn btn-warning biggerBtn" id="dividenum" type="button" onclick="divide()">/</button>
+                            <button class="btn btn-danger biggerBtn" id="multiplynum" type="button" onclick="multiply()">*</button>
+
+                        </div>
+                        <div class="flex-container">
+
+                            <h3> Result = <span id="result"></span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-lg-2"></div>
+                <div class="form-group">
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

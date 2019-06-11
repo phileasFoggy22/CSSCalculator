@@ -1,0 +1,38 @@
+#mainCalc {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+
+}
+
+div > div > h4 {
+    color: floralwhite;
+}
+
+
+.flex-container > div {
+
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container > input {
+    text-align: center;
+}
+
+.biggerBtn {
+    width: 20%;
+}
+
+#result {
+
+    color: yellow;
+
+}
